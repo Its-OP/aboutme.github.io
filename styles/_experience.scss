@@ -1,0 +1,38 @@
+@import './common/imports';
+
+#experience {
+    height: 695px;
+    margin-top: 15px;
+
+    h3 {
+        margin-top: 10px;
+    }
+
+    h4 {
+        margin-top: 7px;
+    }
+
+    .description {
+        div {
+            margin-top: 3px;
+        }
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px 0px 0px 18px;
+        list-style-type: disc;
+    }
+
+    dl, dd {
+        margin: 0px;
+
+        dt {
+            margin-top: 3px;
+        }
+
+        dt {
+            @extend h6
+        }
+    }
+}

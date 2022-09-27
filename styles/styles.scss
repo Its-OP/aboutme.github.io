@@ -1,0 +1,36 @@
+@import '_about-me';
+@import '_contacts';
+@import '_personal-data.scss';
+@import '_experience.scss';
+@import '_pdfbutton.scss';
+
+body {
+    margin: 0px;
+    background-color: darkgray;
+    height: 862px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#resume {
+    @extend .default-font;
+
+    margin-left: calc(50% - 298px);
+
+    display: inline-flex;
+    background-color: $white;
+
+    width: 595px;
+    height: 842px;
+    padding: $default-padding;
+    position: absolute;
+}
+
+#left-column {
+    width: 231px;
+    margin-right: 20px;
+}
+
+#right-column {
+    width: 340px;
+}

@@ -1,0 +1,28 @@
+@import './common/imports';
+
+#pdf {
+    position: fixed;
+    left: calc(50% + 298px + 30px);
+
+    background-color: $beige;
+    padding: 5px;
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    border-color: $black;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: $adobe-red;
+    font-weight: 700;
+
+    &:hover {
+        background-color: $white;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+}

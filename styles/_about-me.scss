@@ -1,0 +1,13 @@
+@import './common/imports';
+
+#about-me {
+    width: 211px;
+    height: 130px;
+    background-color: $dark-azure;
+    padding: $default-padding;
+    border-radius: 8px;
+
+    span {
+        color: white;
+    }
+}
